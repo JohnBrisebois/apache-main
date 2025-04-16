@@ -1,5 +1,5 @@
 services:
-  apache:
+  johnbrisebois.com:
     image: httpd:latest
     container_name: johnbrisebois.com
     expose:
