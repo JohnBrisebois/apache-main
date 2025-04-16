@@ -3,7 +3,7 @@ services:
     image: httpd:latest
     container_name: johnbrisebois.com
     expose:
-      - '80'
+      - '8080'
     networks:
       - webnet
     volumes:
