@@ -1,7 +1,7 @@
 services:
   apache:
     image: httpd:latest
-    container_name: apache-main
+    container_name: johnbrisebois.com
     expose:
       - '80'
     networks:
