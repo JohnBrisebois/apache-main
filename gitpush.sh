@@ -1,7 +1,6 @@
 #!/bin/bash
 
-MESSAGE=$0
-echo $MESSAGE
+MESSAGE=$1
 git add .
 git commit -m $MESSAGE
 git push -u origin main
