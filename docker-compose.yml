@@ -8,6 +8,7 @@ services:
       - webnet
     volumes:
       - ./public-html:/usr/local/apache2/htdocs/
+      - ./httpd.conf:/usr/local/apache2/conf/httpd.conf
 
 networks:
   webnet:
