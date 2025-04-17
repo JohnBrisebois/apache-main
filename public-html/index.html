@@ -1,1 +1,221 @@
-<p> My website is currently moving servers! 4/15/2025 </p>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" charset="utf-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="magick.css">
+</head>
+
+<body id="body">
+    <div id="background">
+        <img id="sp" src="main.png">
+    </div>
+    <div id="list">
+        <a href="./" id="nameTab" class="tabRow listitem">John Brisebois</a>
+        <div id="infoList" class="tabRow">
+            <div id="centered">
+                <a href="./" id="homeTab" class="listitem">
+                    <h3 class="listText">Home</h3>
+                </a>
+                <a href="./projects.html" id="projectsTab" class="listitem">
+                    <h3 class="listText">Projects</h3>
+                </a>
+                <a href="./about.html" id="aboutTab" class="listitem">
+                    <h3 class="listText">About</h3>
+                </a>
+                <a href="./contact.html" id="contactTab" class="listitem">
+                    <h3 class="listText">Contact</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="updown">
+            <div id="up" class="arrow">
+                <img src="up.png">
+            </div>
+            <div id="down" class="arrow">
+                <img src="down.png">
+            </div>
+        </div>
+        <section id="page">
+            <div id="intro" class="pageitem">
+                <h1 id="introTitle" class="pageTitle">John Brisebois</h1>
+                <h4 id="introInfo" class="pageInfo">Hello! Welcome to my website</h4>
+                <div id="introBody" class="pageBody">
+                    Here you can find out a bit about me, including projects I've worked on, skillsets, goals, and
+                    contact information! Navigate with the arrows above or by scrolling if you want a quick overview, or
+                    get more information with the top menu.
+                </div>
+            </div>
+            <div id="projectsPage" class="pageitem">
+                <h1 id="projectsTitle" class="pageTitle">Projects</h1>
+                <h4 id="projectsInfo" class="pageInfo">
+                    Some of my more notable projects.
+                </h4>
+                <div id="projectsBody" class="pageBody">
+                    <div id="buttonCont" class="buttonCont">
+                        <a href="https://johnjonathonson.github.io/" target="_blank" rel="noopener noreferrer"
+                            class="button">
+                            <div class="buttonview buttonText">
+                                Mordhau Macro
+                            </div>
+                            <div class="buttonview">
+                                <img src="box.png" class="buttonImg">
+                            </div>
+                        </a>
+                        <p class="buttonInfo">
+                            Online tool for coordinating strategies in the video game "Mordhau"
+                        </p>
+
+                        <a href="https://github.com/JohnBrisebois/CLUE-The-Great-Museum-Caper" target="_blank"
+                            rel="noopener noreferrer" class="button">
+                            <div class="buttonview buttonText">
+                                Clue Board Game
+                            </div>
+                            <div class="buttonview">
+                                <img src="box.png" class="buttonImg">
+                            </div>
+                        </a>
+                        <p class="buttonInfo">
+                            Online multiplayer board game "CLUE: the Great Museum Caper"
+                        </p>
+
+                        <a href="https://github.com/JohnBrisebois/assembly-runner" target="_blank"
+                            rel="noopener noreferrer" class="button">
+                            <div class="buttonview buttonText">
+                                Assembly Runner
+                            </div>
+                            <div class="buttonview">
+                                <img src="box.png" class="buttonImg">
+                            </div>
+                        </a>
+                        <p class="buttonInfo">
+                            Sidescroller video game made entirely in MIPS assembly language
+                        </p>
+                        <a href="https://www.johnbrisebois.com/projects" class="button">
+                            <div class="buttonview buttonText">
+                                More
+                            </div>
+                            <div class="buttonview">
+                                <img src="box.png" class="buttonImg">
+                            </div>
+                        </a>
+                        <p class="buttonInfo">
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="aboutPage" class="pageitem">
+                <h1 id="aboutTitle" class="pageTitle">About Me</h1>
+                <h4 id="aboutInfo" class="pageInfo">Aspiring software engineer, student of computer science.</h4>
+                <div id="aboutBody" class="pageBody">
+                    Computers are an extension of the human mind. Millions of engineers around the world over the past
+                    century have worked together to create the technology we all take for granted today. While I have
+                    contributed in my own small way as a hobby, I look forward to doing the same as a career.
+                </div>
+                <a href="https://www.johnbrisebois.com/about" id="moreAbout" class="button">
+                    <div class="buttonview buttonText">
+                        More
+                    </div>
+                    <div class="buttonview">
+                        <img src="box.png" class="buttonImg">
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+    <script src="main.js" charset="utf-8"></script>
+    <style>
+        @media (min-height: 1100px) {
+            #main {
+                padding-top: 200px;
+            }
+            #updown {
+                top: 275px;
+            }
+        }
+        @media (max-width: 1300px) {
+            #sp {
+                display: none;
+            }
+        }
+
+        @media (max-width: 900px) {
+            #nameTab {
+                display: none;
+            }
+
+            #background {
+                border-bottom-right-radius: 0;
+                height: 100%;
+                width: 100%;
+            }
+
+            #main {
+                width: 100%;
+                padding-top: 0px;
+            }
+
+            #page {
+                width: 100%;
+                margin-left: 0;
+                padding-top: 100px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            #updown {
+                top: 50px;
+            }
+
+            .pageItem {
+                width: 100%;
+                line-height: 1.1;
+            }
+
+            .pageTitle {
+                line-height: 1.1;
+                font-size: 40;
+            }
+
+            .pageInfo {
+                padding-top: 0px;
+                font-size: 30;
+            }
+
+            .pageBody {
+                padding-top: 0px;
+            }
+
+            .pageBody {
+                min-height: fit-content;
+                width: 100%;
+            }
+
+            #centered {
+                margin-left: 0;
+                margin-right: auto;
+            }
+
+            #list {
+                height: 50px;
+            }
+
+            .listItem {
+                width: 90px;
+            }
+
+            .listText {
+                font-size: 15;
+            }
+            .buttonInfo {
+                display: none;
+            }
+        }
+    </style>
+</body>
+
+</html>

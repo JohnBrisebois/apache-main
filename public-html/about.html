@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" charset="utf-8"/>
+    <title>About</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="magick.css">
+</head>
+
+<body>
+    <div id="background">
+        <img id="sp" src="about.png">
+    </div>
+    <div id="list">
+        <a href="./" id="nameTab" class="tabRow listitem">John Brisebois</a>
+        <div id="infoList" class="tabRow">
+            <div id="centered">
+                <a href="./" id="homeTab" class="listitem">
+                    <h3 class="listText">Home</h3>
+                </a>
+                <a href="./projects.html" id="projectsTab" class="listitem">
+                    <h3 class="listText">Projects</h3>
+                </a>
+                <a href="./about.html" id="aboutTab" class="listitem">
+                    <h3 class="listText">About</h3>
+                </a>
+                <a href="./contact.html" id="contactTab" class="listitem">
+                    <h3 class="listText">Contact</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="mainProjects">
+        <h1>About Me</h1>
+        <h3>A little more about me</h3>
+        <div id="aboutP">
+            <p>
+                Computers are an extension of the human mind.  Millions of engineers around the world over the past century have worked together to create the technology we all take for granted today.  While I have contributed in my own small way as a hobby, I look forward to doing the same as a career.
+            </p>
+            <h3>Skills</h3>
+            <p>
+                I'm proficient in JavaScript, C, C++, C#, Java, Python, JSON, SQL, CSS, HTML, and more.  I've used Flask, Firebase, Github, and AWS to build and maintain both dynamic and static websites.
+            </p>
+            <h3>Other interests and hobbies</h3>
+            <p>
+                I love the great outdoors, as well as bringing the great outdoors inside in the form of (way too many) houseplants.
+            </p>
+            <blockquote>
+                <p>
+                    We can only see a short distance ahead, but we can see plenty there that needs to be done.
+                </p>
+                <footer>
+                    -Alan Turing
+                </footer>
+            </blockquote>
+        </div>
+    </div>
+    <style>
+        @media (max-width: 1200px) {
+            #sp {
+                display: none;
+            }
+
+            #background {
+                border-bottom-right-radius: 0;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 900px) {
+            #nameTab {
+                display: none;
+            }
+
+            #centered {
+                margin-left: 0;
+                margin-right: auto;
+            }
+
+            #list {
+                height: 50px;
+            }
+
+            .listItem {
+                width: 90px;
+            }
+
+            .listText {
+                font-size: 15;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            .projectDiv, projectInfo, projectImg {
+                display: inline;
+                width: 100%;
+            }
+            p,h3,h1,h2 {
+                width: 100%;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            #aboutP {
+                width: 100%;
+            }
+            #mainProjects {
+                width: 100%;
+            }
+
+        }
+    </style>
+</body>
+
+</html>

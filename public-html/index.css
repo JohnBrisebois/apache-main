@@ -1,0 +1,259 @@
+#main {
+    position: relative;
+    text-align: center;
+    width: 1400;
+    margin: auto;
+    padding: -10;
+    height: 100%;
+}
+
+.pageTitle {
+    padding-top: 0px;
+    font-size: 70;
+}
+
+.pageInfo {
+    position: relative;
+    font-size: 35;
+    padding-top: 20px;
+}
+
+.pageBody {
+    text-align: justify;
+    padding-top: 50px;
+    width: 700px;
+    font-size: 25;
+    line-height: 120%;
+}
+
+#list {
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(249,249,255,1) 100%);
+    margin-top: 0px;
+    padding-top: 3px;
+    padding-right: 1%;
+    margin-left: -10px;
+    top: -1px;
+    position: fixed;
+    width: 101%;
+    height: 80px;
+    z-index: 10;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+#infoList {
+    flex-grow: 1;
+    text-align: right;
+    min-width: max-content;
+}
+
+#centered {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.listitem {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    font-size: 25;
+}
+
+.listText {
+    font-size: 25;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+#page {
+    overflow: hidden;
+    height: 100%;
+    width: 1400px;
+    display: grid;
+    margin: auto;
+    padding-top: 155px;
+}
+
+.tabRow {
+    display: flex;
+}
+
+#nameTab {
+    width: 280px;
+    padding: 20px;
+    text-align: right;
+    padding-left: 50px;
+}
+
+.pageitem {
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    padding-left: 0px;
+    width: inherit;
+    top: 0px;
+    display: none;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.projectsItem {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    font-size: 30;
+}
+
+.thumbnail {
+    border-radius: 20px;
+}
+
+#background {
+    overflow: hidden;
+    position: fixed;
+    text-align: right;
+    top: 0px;
+    right: 0px;
+    height: 120%;
+    width: 4000px;
+    background: linear-gradient(180deg, rgb(223, 221, 255) 0%, rgba(249,249,255,1) 100%);
+    border-bottom-right-radius: 2000px;
+    box-shadow: 10px 10px 100px rgb(62, 82, 116)
+}
+
+.buttonCont {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+
+.button {
+    display: grid;
+    font-size: 30;
+    width: 250px;
+    height: 100px;
+}
+
+.buttonInfo {
+    grid-column-start: 2;
+    width: 500px;
+    height: 80px;
+    padding-top: 10px;
+    justify-content: left;
+}
+
+.buttonView {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    text-align: center;
+}
+
+.buttonText {
+    margin: auto;
+    padding: 20px;
+}
+
+#updown {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.arrow {
+    padding: 10px;
+}
+
+.buttonImg {
+    width: 200px;
+    height: 100px;
+}
+
+#mainProjects {
+    top: 300px;
+    width: 1400px;
+    position: relative;
+    text-align: left;
+    margin: auto;
+}
+
+.projectDiv {
+    display: grid;
+    grid-template-columns: 250px 500px;
+    text-align: left;
+}
+
+.projectImg {
+    display: grid;
+}
+
+.pPolaroid {
+    position: relative;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    left: -18px;
+    height: 300px;
+}
+
+.pImg {
+    position: relative;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    height: 210px;
+    top: 24px;
+}
+
+.pTitle {
+    text-align: center;
+    position: relative;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    top: 240px;
+    left: -20px;
+}
+
+.projectInfo {
+    padding: 20px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    text-align: justify;
+}
+
+#moreAbout {
+    position: relative;
+    left: -30px;
+    top: 20px;
+}
+
+#aboutP {
+    width: fit-content;
+    max-width: 500px;
+    text-align: justify;
+}
+
+.contactItem {
+    display: grid;
+    grid-template-columns: 64px 300px;
+    grid-template-rows: 70px;
+}
+
+.contactTxt {
+    padding-top: 15px;
+    grid-column-start: 2;
+    text-align: left;
+}
+
+.contactImg {
+    grid-column-start: 1;
+    width: 64px;
+}
+
+#sp {
+    height: 120%;
+}

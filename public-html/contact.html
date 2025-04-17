@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" charset="utf-8"/>
+    <title>Contact</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="magick.css">
+</head>
+
+<body>
+    <div id="background">
+        <img id="sp" src="contact.png">
+    </div>
+    <div id="list">
+        <a href="./" id="nameTab" class="tabRow listitem">John Brisebois</a>
+        <div id="infoList" class="tabRow">
+            <div id="centered">
+                <a href="./" id="homeTab" class="listitem">
+                    <h3 class="listText">Home</h3>
+                </a>
+                <a href="./projects.html" id="projectsTab" class="listitem">
+                    <h3 class="listText">Projects</h3>
+                </a>
+                <a href="./about.html" id="aboutTab" class="listitem">
+                    <h3 class="listText">About</h3>
+                </a>
+                <a href="./contact.html" id="contactTab" class="listitem">
+                    <h3 class="listText">Contact</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="mainProjects">
+        <h1>Contact Me</h1>
+        <h4>Let me know what you think of the website.  Or just say hi!</h4>
+        <div id="aboutP">
+            <a href="mailto: johncjb@ymail.com" target="_blank" rel="noopener noreferrer" class="contactItem">
+                <img src="mail.png" class="contactImg">
+                <h2 class="contactTxt">johncjb@ymail.com</h2>
+            </a>
+            <a href="https://github.com/JohnBrisebois" target="_blank" rel="noopener noreferrer" class="contactItem">
+                <img src="git.png" class="contactImg">
+                <h2 class="contactTxt">/JohnBrisebois</h2>
+            </a>
+            <a href="https://www.linkedin.com/in/john-brisebois-350341302/" target="_blank" rel="noopener noreferrer" class="contactItem">
+                <img src="in.png" class="contactImg">
+                <h2 class="contactTxt">John Brisebois</h2>
+            </a>
+        </div>
+    </div>
+    <style>
+        @media (max-width: 1200px) {
+            #sp {
+                display: none;
+            }
+
+            #background {
+                border-bottom-right-radius: 0;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 900px) {
+            #nameTab {
+                display: none;
+            }
+
+            #centered {
+                margin-left: 0;
+                margin-right: auto;
+            }
+
+            #list {
+                height: 50px;
+            }
+
+            .listItem {
+                width: 90px;
+            }
+
+            .listText {
+                font-size: 15;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            .projectDiv, projectInfo, projectImg {
+                display: inline;
+                width: 100%;
+            }
+            #aboutP {
+                width: 100%;
+            }
+            p,h3,h1,h2,h4 {
+                width: 100%;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .pTitle {
+                display: none;
+            }
+            #mainProjects {
+                width: 100%;
+            }
+
+        }
+    </style>
+</body>
+
+</html>
