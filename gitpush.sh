@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sed -i '2 Listen 80'
+sed -i '2 Listen 80' 'httpd.conf'
 
 MESSAGE=$1
 git add .
